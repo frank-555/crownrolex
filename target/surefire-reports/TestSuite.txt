@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 2, Errors: 0, Skipped: 22, Time elapsed: 134.352 s <<< FAILURE! - in TestSuite
+setup(com.crm.qa.testcases.contactsPageTest)  Time elapsed: 35.792 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'JAYKAY', ip: '192.168.1.35', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f34ccfe7ff1a82fa25404ba8d74ece1c, clickElement {id=e0491ce0-c7ac-4460-9425-fa395dc11739}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:53123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53123/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f34ccfe7ff1a82fa25404ba8d74ece1c)] -> xpath: //a[@title='Contacts']]
+Session ID: f34ccfe7ff1a82fa25404ba8d74ece1c
+	at com.crm.qa.testcases.contactsPageTest.setup(contactsPageTest.java:41)
+
+setup(com.crm.qa.testcases.homePageTest)  Time elapsed: 23.763 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 19.120
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'JAYKAY', ip: '192.168.1.35', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a46dbe129d21e05b755efa4551d88007, get {url=https://classic.crmpro.com/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:53189}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53189/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a46dbe129d21e05b755efa4551d88007
+	at com.crm.qa.testcases.homePageTest.setup(homePageTest.java:31)
+
